@@ -1,0 +1,31 @@
+.text-animate-hover {
+    &:hover {
+        animation: rubberBand 1s; 
+        color: #ffffff;
+    }
+}
+
+
+.mobile-about{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+
+   
+ 
+ 
+    .mobile-about{
+     display: inline-block;
+     font-family: 'Colvetica';
+     top: 0;
+     //left: 0%;
+   
+   }
+    
+     
+     
+}
